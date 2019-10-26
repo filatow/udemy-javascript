@@ -18,4 +18,4 @@ for (let i = 1; i <= 2; i++) {
     appData.expenses[expenseName] = expenseValue;
 }
 
-alert( String(appData.budget) / 30 );
+alert( Number(appData.budget) / 30 );
